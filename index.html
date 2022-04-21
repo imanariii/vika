@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Главная страница</title>
+    <link rel='stylesheet' href="index.css" />
+    <link href='https://avatars.mds.yandex.net/i?id=7f33cf66f9d158452cc9dd346eed26c3-4826372-images-thumbs&n=13' rel="shortcut icon" type='image/x-icon' />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--Шапка-->
+    <header>
+        <section class="container">
+            <div class="logo">
+                <img src="https://www.victoriassecret.ru/static/version1650527571/frontend/Shellpea/victoria/ru_RU/images/logo/logo-victorias-secret.svg" alt="">
+            </div>
+            <nav>
+                <a href="#1">Бумага для офисной техники</a>
+                <a href="#2">Блокноты,записные книжки и тетради</a>
+                <a href="#3">Офисная техника</a>
+                <a href="#4">Канцелярские приборы</a>
+            </nav>
+        </section>
+
+    </header>
+    <main>
+        <div class="slider__wrapper">
+            <div class="container">
+                <div class="slider-info">
+                    <div class="slider">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <!-- Первый слайд -->
+                        <div class="slider-item">
+                            <img src="img1.webp" height="326px" alt="">
+                        </div>
+                        <!-- Второй слайд -->
+                        <div class="slider-item">
+                            <img src="img2.webp" alt="">
+                        </div>
+                        <!-- Третий слайд -->
+                        <div class="slider-item">
+                            <img src="img3.webp" alt="">
+                        </div>
+                        <!-- Кнопки-стрелочки -->
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+                    <div class="slider-text">
+                        <div>
+                            <h1>На вкус и цвет</h1>
+                            <h3>Товарища нет!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="office__wrapper">
+            <div class="container">
+                <div class="office" id="1">
+                    <h1>Бумага для офисной техники</h1>
+                    <div class="office-items">
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_ec2eb3cb09ca408cbc3856ea2441393c~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_ec2eb3cb09ca408cbc3856ea2441393c~mv2.webp'>
+                            <p>Бумага NAUTILUS SUPER WHITE офисная А4, класс «A»<br />Цена:404,95 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_a446e0116b5f4618916b7d5476a09f29~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_a446e0116b5f4618916b7d5476a09f29~mv2.webp'>
+                            <p>Бумага белая «Студенческая» офисная А4</br>Цена:118,30 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_e3b5cf7e97d24a5ca6be39793a626646~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_e3b5cf7e97d24a5ca6be39793a626646~mv2.webp'>
+                            <p>Престижная бумага IQ (АйКью) SMOOTH офисная А4, класс «А+»</br>Цена:400,40 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_1ff32126f4c8465f91b7095cd156e02c~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_1ff32126f4c8465f91b7095cd156e02c~mv2.webp'>
+                            <p>Бумага IQ (АйКью) PREMIUM офисная А4, класс А<br />Цена: 364,91 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_8867eadb6ae04673b58c678f4b6f53de~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_8867eadb6ae04673b58c678f4b6f53de~mv2.webp'>
+                            <p>Бумага Home&Office офисная А4, класс «C»<br />Цена: 245,70 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_6e530f92abb54696ade72f0b976b93a0~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_6e530f92abb54696ade72f0b976b93a0~mv2.webp'>
+                            <p>Бумага XEROX PREMIER офисная А4, класс «A»</br>Цена: 326,69 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_805c2bdf1fa74bbb89496b326c3cd6a4~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_805c2bdf1fa74bbb89496b326c3cd6a4~mv2.webp'>
+                            <p>Бумага офисная БОЛЬШОГО ФОРМАТА (297×420 мм), А3, класс «А+»<br />Цена: 737,10 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_2b13e00e81d3461bb1b48229cb8adc18~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_2b13e00e81d3461bb1b48229cb8adc18~mv2.webp'>
+                            <p>Бумага офисная БОЛЬШОГО ФОРМАТА (297×420 мм), А3, класс «B»<br />Цена: 539,63 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_8dc5fdb5e8f045ba87fc74ffebdae10d~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_8dc5fdb5e8f045ba87fc74ffebdae10d~mv2.webp'>
+                            <p>Бумага офисная БОЛЬШОГО ФОРМАТА (297×420 мм), А3, класс «C»</br>Цена: 498,68 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.wixstatic.com/media/751f18_d5b93a9f3ce14b0b83d9d141f092f1ea~mv2.jpg/v1/fill/w_576,h_576,al_c,lg_1,q_85/751f18_d5b93a9f3ce14b0b83d9d141f092f1ea~mv2.webp'>
+                            <p>Бумага XEROX BUSINESS офисная А4, класс «B»<br />Цена: 384,93 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="office__wrapper">
+            <div class="container">
+                <div class="office" id="2">
+                    <h1>Блокноты,записные книжки и тетради</h1>
+                    <div class="office-items">
+                        <div class="item">
+                            <img src='https://main-cdn.sbermegamarket.ru/big2/hlr-system/115/740/894/652/610/27/100028508716b0.jpg' class="img" />
+                            <p>Записная книжка Pyramid Friends: Marl A5<br />Цена:310 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://main-cdn.sbermegamarket.ru/big2/hlr-system/132/273/051/962/513/38/100028685568b0.jpg' class="img" />
+                            <p>Блокнот Pyramid Friends: The One with the Quotes</br>Цена:499 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://main-cdn.sbermegamarket.ru/big2/hlr-system/115/576/948/052/610/26/100028508585b0.jpg' class="img">
+                            <p>Блокнот ABYStyle Boruto: Naruto Next Generations: Best Ninja A5</br>Цена:999 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/5204767/img_id5276050620806678578.jpeg/orig' class="img">
+                            <p>Бумага IQ (АйКью) PREMIUM офисная А4, класс А<br />Цена: 364,91 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/3765589/img_id2079541762655469628.jpeg/orig'>
+                            <p>Блокнот BRAUBERG Black Jack А5, 128 листов <br />Цена:433 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4732637/img_id668889892315077070.jpeg/13hq' class="img" />
+                            <p>Блокнот BRAUBERG Office А5, 80 листов</br>Цена:354 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4362548/img_id3759582825551042065.jpeg/13hq' class="img" />
+                            <p>Блокнот BRAUBERG Income А4, 128 листов<br />Цена:510 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4936002/img_id6014945297210849347.jpeg/orig' class="img" />
+                            <p>BRAUBERG Тетрадь Main, клетка, 120 л., коричневый<br />Цена:315 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/1644362/img_id9118410756712036979.jpeg/orig' class="img" />
+                            <p>BRAUBERG Тетрадь Joy, клетка, 120 л., бирюзовый</br>Цена:367 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/5214322/img_id1123466093625768107.jpeg/13hq' class="img" />
+                            <p>BRAUBERG Тетрадь Main, клетка, 120 л<br />Цена:315 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="office__wrapper">
+            <div class="container">
+                <div class="office" id="2">
+                    <h1>Офисная техника</h1>
+                    <div class="office-items">
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4334579/img_id3619610880630606551.jpeg/13hq' class="img">
+                            <p>Уничтожитель бумаг Office Kit S35<br />Цена:4 153р</p>
+                            <button class="button1"><a href="mailto:mail"></a>Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/5130171/img_id5661524728150897811.jpeg/orig' class="img" />
+                            <p>Уничтожитель бумаги (шредер) New United (ET-30S)<br />Цена:24 300 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.eldorado.ru/photos/mv/Big/30057945bb.jpg/resize/380x240/' />
+                            <p>Лазерное МФУ Pantum M6700D</br>Цена:15 899 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4011308/img_id804499366696568645.jpeg/orig' class="img" />
+                            <p>Уничтожитель бумаг Office Kit S230 серый/черный</br>Цена:23 828 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4484220/img_id6792334634389569609.jpeg/13hq' class="img" />
+                            <p>Уничтожитель бумаг Fellowes AutoMax 150C<br />Цена:31 180 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="office__wrapper">
+            <div class="container">
+                <div class="office" id="3">
+                    <h1>Канцелярские приборы</h1>
+                    <div class="office-items">
+                        <div class="item">
+                            <img src='https://static.my-shop.ru/product/f2/113/1124389.jpg'>
+                            <p>Клей-карандаш, 15 г<br />Цена:39 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.my-shop.ru/imo/transform/profile=600/product/3/408/4072613.jpg' />
+                            <p>Клей ПВА "Standard", 60 мл</br>Цена:38 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.my-shop.ru/imo/transform/profile=600/product/3/201/2005344.jpg'>
+                            <p>Ластик "Elephant", 300/80, 26x18x8 мм</br>Цена:20 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://static.my-shop.ru/imo/transform/profile=600/product/3/254/2533960.png'>
+                            <p>Ручка шариковая "Ultra Glide ErgoLine Kids", синяя<br />Цена:81 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4076910/img_id2462080146988403388.jpeg/orig' />
+                            <p>BRAUBERG Точилка 222517 черный/бордовый<br />Цена:260 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4721581/img_id3017620116709228613.jpeg/orig' />
+                            <p>Визитница BRAUBERG Germanium, серебристая</br>Цена:470 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4341821/img_id7736940288056719806.jpeg/orig' class="img" />
+                            <p>Органайзер BRAUBERG Germanium , светло-зеленый<br />Цена:181 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/3912211/img_id8095179766050444051.jpeg/orig' />
+                            <p>Органайзер BRAUBERG 237418/237419, черный<br />Цена:990 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/4866824/img_id797893153171440987.jpeg/orig'>
+                            <p>Набор руководителя DELUCCI MBn_09201/09207, 9 пр., красное дерево</br>Цена:6 040р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                        <div class="item">
+                            <img src='https://avatars.mds.yandex.net/get-mpic/5323398/img_id725973487805335142.jpeg/orig' />
+                            <p>Настольный набор Uvenir, арт.5006<br />Цена:13 400 р</p>
+                            <button class="button1"><a href="mailto:mail">Купить</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="feedback__wrapper">
+            <div class="container">
+                <div class="Feedback">
+                    <form class="decor" name="mess">
+                        <div class="form-left-decoration"></div>
+                        <div class="form-right-decoration"></div>
+                        <div class="circle"></div>
+                        <div class="form-inner">
+                            <h3>Написать нам</h3>
+                            <input type="text" placeholder="Username" name='nmsp'>
+                            <input type="email" placeholder="Email" name="m_to">
+                            <input type="number" placeholder="Введите телефон" class="input" name="tel">
+                            <input type="text" placeholder="Введите страну" class="input" name="strana" />
+                            <textarea placeholder="Комментарий..." rows="3" name='let'></textarea>
+                            <button type="submit" onclick="mes_go()">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Низ-->
+    <footer class="footer">
+        <section class="container">
+            <div class="logo">
+                <img style="margin-top: 10px;" src="https://www.victoriassecret.ru/static/version1650527571/frontend/Shellpea/victoria/ru_RU/images/logo/logo-victorias-secret.svg" alt="">
+            </div>
+        </section>
+    </footer>
+    <div id="toTop"> Наверх </div>
+    <script src='slider.js'></script>
+    <script src='form.js'></script>
+    <script src='arrow.js'></script>
+    <script src='Counter.js'></script>
+</body>
+
+</html>
